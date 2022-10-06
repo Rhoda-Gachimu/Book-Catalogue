@@ -5,6 +5,7 @@ import AddBookForm from "./components/AddBookForm";
 import Search from "./components/Search";
 import BookCategories from "./components/BookCategories";
 
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
     <AddBookForm/>
     <BookCategories/>
     <Search/>
-
+    
     </div>
   );
 }

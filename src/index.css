@@ -28,3 +28,6 @@ nav a:hover{
   color: tomato;
   border-bottom: 2px solid tomato;
 }
+*{
+  background-color: #BAA7AA;
+}
