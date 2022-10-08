@@ -33,10 +33,11 @@ nav a:hover{
 }
 h1{
   text-align: center;
-  color: blueviolet;
+  color: indigo;
   font-style: italic;
   font-weight: lighter;
   font-family:Cormorant Upright ;
+  font-style: italic;
 }
 button{
   background-color:blue;

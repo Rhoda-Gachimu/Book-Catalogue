@@ -10,7 +10,7 @@ function NavBar(){
             <a href="#Books">Books</a>
             <a href="#Catalogue">Catalogue</a>
         </nav>
-        <h1>Welcome Dear Reader ^._.^ </h1>
+        <h1>“Books are mirrors:<br></br>you only see in them what you already have inside you.” </h1>
 
        
 
