@@ -31,21 +31,8 @@ nav a:hover{
 *{
   background-color: #BAA7AA;
 }
-h1{
-  text-align: center;
-  color: indigo;
-  font-style: italic;
-  font-weight: lighter;
-  font-family:Cormorant Upright ;
-  font-style: italic;
-}
+
 button{
   background-color:blue;
-  padding: 20px;
-  position: absolute;
-  cursor: pointer; 
-  left: 42%;
-  margin: 50px 10px;
-  border-radius:5%;
-  font-size: larger;
+  
 }
