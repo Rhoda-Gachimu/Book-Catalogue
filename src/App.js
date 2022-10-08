@@ -4,9 +4,15 @@ import NavBar from "./components/NavBar";
 import BookList from "./components/BookList";
 import BookCategories from "./components/BookCategories";
 import Home from "./Home";
+import './index.css';
+
+
+
 
 
 function App() {
+  
+  
   
   return (
     <div className="App">

@@ -31,18 +31,18 @@ const ImgBody = styled.div`
 
 `
 const Button = styled.button`
-         background-color:blue
+         background-color:blue;
          padding: 20px;
          position: absolute;
          cursor: pointer; 
          left: 42%;
          margin: 50px 10px;
-         border-radius:5%;
+         border-radius:4%;
          font-size: larger;
 `
 const H1 = styled.h1`
          text-align: center;
-         color: indigo;
+         color: black;
          font-style: italic;
          font-weight: lighter;
          font-family:Cormorant Upright ;
