@@ -8,8 +8,10 @@ import book_lover from "../src/images/book_lover.svg"
 import styled from "styled-components"
 
 function App() {
+  
   return (
     <div className="App">
+      
 
     <NavBar/>
     <BookList/>
@@ -19,14 +21,13 @@ function App() {
     <ImgBody>
       <img src={book_lover} alt="book lover" width="400px" />
     </ImgBody>
-    
-
+   
     </div>
   );
 }
 
 const ImgBody = styled.div`
-  // background-color: red;
+   
   
 
   img {
@@ -37,5 +38,7 @@ const ImgBody = styled.div`
   }
 
 `
+
+
 
 export default App;

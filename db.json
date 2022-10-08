@@ -1,0 +1,222 @@
+{
+"comicbooks":[
+    {
+        "title":"Watch Men",
+        "author":"Alan Moore",
+        "Publication date":"1986",
+        "pages":"542"
+        
+    },
+    {
+        "title":"My Favourite THing is Monsters",
+        "author":"Emil Ferris",
+        "Publication date":"2017-02-14",
+        "pages":"418"
+
+    },
+    {
+        "title":"Bitch Planet",
+        "author":"Valentine De Landro , Kelly Sue De Comick ",
+        "Publication date":"2015-01-15",
+        "pages":"140"
+    },
+    {   "title":"The Sand man",
+        "author":"Neil Gaiman",
+        "Publication date":"1989-01-01",
+        "pages":"542"
+
+    },
+
+    {
+        "title":"Sweet Tooth",
+        "author":"Jeff Lemire",
+        "Publication date":"2010-05-18",
+        "pages":"130"
+    
+
+    }
+
+],
+
+"Action_Adventure":[  
+    {
+        "title":"Divergent",
+        "author":"Veronica Roth",
+        "Publication date":"2011-04-26",
+        "pages":"487",
+        "original language":"English"
+
+    },
+
+
+    {
+        "title":"MOkingJay",
+        "author":"Suzanne Collins",
+        "Publication date":"2010-08-24",
+        "pages":"390",
+        "original language":"English"
+
+
+     },
+
+    {
+        "title":"The Ballad of Songbirds and Snakes",
+        "author":"Suzanne Collins",
+        "Publication date":"2020-05-19",
+        "pages":"517",
+        "original language":"English"
+
+    },
+    {
+        "title":"Percy Jackson & the Olympians:The Lightning Thief",
+        "author":"Rick Riordan",
+        "Publication date":"2005-06-28",
+        "pages":"377",
+        "original language":"English"
+
+
+     },
+     {
+        "title":"An Ember in the Ashes",
+        "author":"Sabaa Tahir",
+        "Publication date":"2015-04-28",
+        "pages":"446",
+        "original language":"English"
+
+
+     }
+
+
+],
+
+"Detective_Mystery":[
+    {
+        "title":"One of Us is Lying",
+        "author":"Karen M, McManus",
+        "Publication date":"2017-05-29",
+        "pages":"368",
+        "original language":"English , Turkish"
+
+
+     },
+     {
+        "title":"A Good Girl's Guide to Murder",
+        "author":"Holly Jackson",
+        "Publication date":"2019-05-02",
+        "pages":"500",
+        "original language":"English"
+
+
+     },
+     {
+        "title":"Truly Devious:A Mystery",
+        "author":"Maureen Johnson",
+        "Publication date":"2018-01-16",
+        "pages":"542",
+        "original language":"English"
+
+
+
+     },
+     {
+        "title":"One of Us is Next",
+        "author":"Karen M.McManus",
+        "Publication date":"202-01-07",
+        "pages":"377",
+        "original language":"English"
+
+
+     },
+     {
+        "title":"Monday's Not Coming",
+        "author":"Tiffany D.Jackson",
+        "Publication date":"2018-05-22",
+        "pages":"448",
+        "original language":"English"
+
+
+     }
+
+],
+"Classics":[
+    {
+        "title":"Pride and Prejudice",
+        "author":"Jane Austen",
+        "Publication date":"1813-01-28",
+        "pages":"259",
+        "original language":"English"
+    },
+    {
+
+        "title":"Nineteen Eighty-Four",
+        "author":"George Orwell",
+        "Publication date":"1949-06-08",
+        "pages":"328",
+        "original language":"English"
+    },
+    {
+        "title":"The Catcher in the Rye",
+        "author":"J.D.Salinger",
+        "Publication date":"1951-07-16",
+        "pages":"234",
+        "original language":"English"
+    },
+    {
+        "title":"Treasure Island",
+        "author":"Robert Louis Stevenson",
+        "Publication date":"1883-12-14",
+        "pages":"292",
+        "original language":"English"
+    },
+    {
+        "title":"Little Women",
+        "author":"Louisa May Alcott",
+        "Publication date":"1868",
+        "pages":"759",
+        "original language":"English"
+    }
+
+],
+"Fantasy":[
+    {
+        "title":"A Game of Thrones",
+        "author":"Jeffrey Jones",
+        "Publication date":"1996-08-01",
+        "pages":"326",
+        "original language":"English"
+    },
+    {
+        "title":"Harry Potter",
+        "author":"J. K. Rowling",
+        "Publication date":"1997-06-26",
+        "pages":"759",
+        "original language":"English"
+    },
+    {
+        "title":"The Lies of Locke Lamora",
+        "author":"Scott Lynch",
+        "Publication date":"2006-06-27",
+        "pages":"499",
+        "original language":"English"
+    },
+    {
+        "title":"Gardens of the Moon",
+        "author":"Steven Erikson",
+        "Publication date":"1999-04-01",
+        "pages":"712",
+        "original language":"English"
+    },
+    {
+        "title":"The Lord of the Rings",
+        "author":"J.R.R Tolkien",
+        "Publication date":"1954-07-29",
+        "pages":"759",
+        "original language":"English"
+    }
+
+
+]
+    
+
+
+}
