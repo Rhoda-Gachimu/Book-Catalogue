@@ -1,7 +1,11 @@
 import React from "react";
+import { Route, Routes} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import book_lover from "../src/images/book_lover.svg"
 import styled from "styled-components"
+import BookList from "./components/BookList";
+import BookCategories from "./components/BookCategories";
+
 
 function App() {
   
@@ -10,6 +14,11 @@ function App() {
       
 
     <NavBar/>
+    <Routes>
+    
+         <Route path="/books" element={<BookList />} /> 
+         <Route path="/catalogue" element={<BookCategories />} />
+    </Routes>
     
     
     <ImgBody>
@@ -17,6 +26,7 @@ function App() {
     </ImgBody>
            
     <button>Books Available</button>
+    
     
              
     
