@@ -31,3 +31,20 @@ nav a:hover{
 *{
   background-color: #BAA7AA;
 }
+h1{
+  text-align: center;
+  color: blueviolet;
+  font-style: italic;
+  font-weight: lighter;
+  font-family:Cormorant Upright ;
+}
+button{
+  background-color:blue;
+  padding: 20px;
+  position: absolute;
+  cursor: pointer; 
+  left: 42%;
+  margin: 50px 10px;
+  border-radius:5%;
+  font-size: larger;
+}

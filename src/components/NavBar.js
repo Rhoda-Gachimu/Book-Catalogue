@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function NavBar(){
     return(
     <div>
@@ -9,6 +10,9 @@ function NavBar(){
             <a href="#Books">Books</a>
             <a href="#Catalogue">Catalogue</a>
         </nav>
+        <h1>Welcome Dear Reader ^._.^ </h1>
+
+       
 
     </div>
     );
