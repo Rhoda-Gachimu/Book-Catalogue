@@ -23,11 +23,10 @@ The significance of this project is:
 
 Several technologies have been used in the design and implementation of this website.
 The technologies are:
-<ol>
-<li>CSS3</li>
-<li>React.js<li>
-<li>Json</li>
-</ol>
+
+-CSS3
+-React.js
+-Json
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
