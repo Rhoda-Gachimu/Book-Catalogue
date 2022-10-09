@@ -2,14 +2,12 @@
 <!-- TABLE OF CONTENTS -->
 
   + [Description](#description)
-  + [Installation Requirement](#Installation)
   + [Technology Used](#technology-used)
-  + [Getting Started](#getting-started)
   + [Prerequisites](#prerequisites)
   + [Contribution](#contribution)
   + [Code Samples](#code-samples)
-  + [Licence](#licence)
-  + [Authors Info](#author-Info)
+  + [License](#license)
+  + [Authors Info](#authors-Info)
  
 <!-- ABOUT THE PROJECT -->
 ## Description
@@ -23,10 +21,11 @@ The significance of this project is:
 
 Several technologies have been used in the design and implementation of this website.
 The technologies are:
-
--CSS3
--React.js
--Json
+<ul>
+<li>CSS3</li>
+<li>React.js</li>
+<li>Json</li>
+</ul>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
