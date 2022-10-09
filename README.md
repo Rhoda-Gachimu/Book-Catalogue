@@ -24,10 +24,10 @@ The significance of this project is:
 Several technologies have been used in the design and implementation of this website.
 The technologies are:
 <ol>
-
 <li>CSS3</li>
 <li>React.js<li>
 <li>Json</li>
+</ol>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -115,6 +115,8 @@ export default Home;
 ## Authors Info
   
  Rhoda Gachimu (https://github.com/Rhoda-Gachimu)  
+
+ Contact Info (gachimurhoda@gmail.com)
 
 
 Project Link: [https://github.com/Rhoda-Gachimu/Book-Catalogue]
