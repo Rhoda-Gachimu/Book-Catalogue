@@ -1,6 +1,7 @@
 import React from "react";
 import book_lover from "../src/images/book_lover.svg";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 function Home(){
     return(
@@ -10,8 +11,9 @@ function Home(){
          <ImgBody>
               <img src={book_lover} alt="book lover" width="400px" />
          </ImgBody>
-           
-        <Button>Books Available</Button>
+           <Link to="./Catalogue">
+               <Button>Books Available</Button>
+           </Link>
     
     </div>
     )
