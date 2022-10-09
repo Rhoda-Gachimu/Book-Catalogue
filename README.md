@@ -1,70 +1,165 @@
-# Getting Started with Create React App
+# Book-Catalogue
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  + [Description](#description)
+  + [Installation Requirement](#Installation)
+  + [Technology Used](#technology-used)
+  + [Getting Started](#getting-started)
+  + [Prerequisites](#prerequisites)
+  + [Contribution](#contribution)
+  + [Code Samples](#code-samples)
+  + [Licence](#licence)
+  + [Authors Info](#author-Info)
+ 
+<!-- ABOUT THE PROJECT -->
+## Description
+It is a Website with the following MVPs: The Home page,About Us and Book Categories section. <br>
+The significance of this project is:
+<ol>
+<li>It gives the user a site where they can be able to view available books</li>
+</ol>
 
-## Available Scripts
+### Technology Used
 
+Several technologies have been used in the design and implementation of this website.
+The technologies are:
+<ol>
+
+<li>CSS3</li>
+<li>React.js<li>
+<li>Json</li>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contribution
+If you need to contribute to this project follow the steps below:<br>
+- Fork the repo first (`fork`)
+- Clone the repo(`git clone <repo link>`)
+- Create a branch where you will add changes (`git branch -b <branchname>`)
+- Add the changes (`git add .`)
+- Commit changes (`git commit -m"contributing changes"`)
+- Push your changes (`git push origin <branchname>`)
 In the project directory, you can run:
 
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Code Samples
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- HOME SECTION -->
+```
+ import React from "react";
+import book_lover from "../src/images/book_lover.svg";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-### `npm run build`
+function Home(){
+    return(
+    <div className="home"> 
+        <H1>“Books are mirrors:<br></br>you only see in them what you already have inside you.” </H1>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+         <ImgBody>
+              <img src={book_lover} alt="book lover" width="400px" />
+         </ImgBody>
+           
+           <Link to="./AboutUs">
+               <Button>Next</Button>
+           </Link>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+           <Link to="./Catalogue">
+               <Button>Books Available</Button>
+           </Link>
+    
+    </div>
+    )
+}
+const ImgBody = styled.div`
+   
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        img {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+    width: 40%;
+     }
 
-### `npm run eject`
+`
+const Button = styled.button`
+         background-color:blue;
+         padding: 20px;
+         cursor: pointer; 
+         float:right;
+         margin:20px 250px; 
+         border-radius:4%;
+         box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+         
+`
+const H1 = styled.h1`
+         text-align: center;
+         color: black;
+         font-style: italic;
+         font-weight: lighter;
+         font-family:Cormorant Upright ;
+         font-style: italic;
+`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ 
+export default Home;
+ ```
+<!-- ACKNOWLEDGMENTS -->
+## Authors Info
+  
+ Rhoda Gachimu (https://github.com/Rhoda-Gachimu)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Project Link: [https://github.com/Rhoda-Gachimu/Book-Catalogue]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- LICENSE -->
+## License
+### MIT License
 
-### Code Splitting
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
