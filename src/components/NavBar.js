@@ -9,7 +9,7 @@ function NavBar(){
             <P>BoOk LovEr</P>
              <Ul>
                   <li><NavLink to="/" exact>Home</NavLink></li>
-                  <li><NavLink to="/Books" exact>BookList</NavLink></li>
+                  <li><NavLink to="/AboutUs" exact>About</NavLink></li>
                   <li><NavLink to="/Catalogue" exact>BookCategories</NavLink></li>
        
              </Ul>
