@@ -25,12 +25,14 @@ const Ul = styled.ul`
   display: flex;
   justify-content: space-evenly;
   list-style:none;
+  font-size:1.5rem;
+  
 `
 const P = styled.p`
 font-weight:600;
 font-style:bolder;
-font-size:1.8rem;
-color:indigo;
+font-size:2rem;
+color:black;
 
 `
 
