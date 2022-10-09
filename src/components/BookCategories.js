@@ -8,7 +8,7 @@ function BookCategories() {
   
 
   const fetchBook= (category)=>{
-    fetch(`http://localhost:3000/${category}`)
+    fetch(`https://frozen-ravine-13390.herokuapp.com/${category}`)
     .then((response)=>response.json())
     .then((books)=>{
       setBooks(books);
