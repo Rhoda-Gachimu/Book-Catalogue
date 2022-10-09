@@ -27,9 +27,9 @@ function BookCategories() {
       <button onClick={handleClick} value="Detective_Mystery">Detective_Mystery</button>
       <button onClick={handleClick} value="Classics">Classics</button>
       <button onClick={handleClick} value="Fantasy">Fantasy</button>
-      <ol>
-            <li key={books.index}> {books.map((book)=>book.title)} </li>
-      </ol>
+      
+           {books.map(book=><h3>{book.title}</h3>)}
+    
     </div>
   );
 }

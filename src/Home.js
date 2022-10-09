@@ -41,6 +41,8 @@ const Button = styled.button`
          margin: 50px 10px;
          border-radius:4%;
          font-size: larger;
+         box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+         
 `
 const H1 = styled.h1`
          text-align: center;
