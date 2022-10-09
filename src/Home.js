@@ -5,12 +5,17 @@ import { Link } from "react-router-dom";
 
 function Home(){
     return(
-    <div>
+    <div className="home"> 
         <H1>“Books are mirrors:<br></br>you only see in them what you already have inside you.” </H1>
 
          <ImgBody>
               <img src={book_lover} alt="book lover" width="400px" />
          </ImgBody>
+           
+           <Link to="./AboutUs">
+               <Button>Next</Button>
+           </Link>
+
            <Link to="./Catalogue">
                <Button>Books Available</Button>
            </Link>
@@ -35,12 +40,10 @@ const ImgBody = styled.div`
 const Button = styled.button`
          background-color:blue;
          padding: 20px;
-         position: absolute;
          cursor: pointer; 
-         left: 42%;
-         margin: 50px 10px;
+         float:right;
+         margin:20px 250px; 
          border-radius:4%;
-         font-size: larger;
          box-shadow: 0px 0px 2px 2px rgb(0,0,0);
          
 `
