@@ -45,7 +45,8 @@ const Button = styled.button`
          background-color:blue;
          padding:10px;
          margin:120px;
-        border-radius:5%;
+         border-radius:5%;
+         color:white;
   ` 
   const H2 = styled.h2`
   color:red;
